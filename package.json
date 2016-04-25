@@ -1,7 +1,7 @@
 {
   "name": "ask-the-audience",
   "version": "1.0.0",
-  "description": "polling the class",
+  "description": "web sockets",
   "main": "server.js",
   "scripts": {
     "test": "mocha",
@@ -12,22 +12,22 @@
     "url": "git+https://github.com/Jlawlzz/ask-the-audience.git"
   },
   "keywords": [
-    "poll",
-    "ask",
-    "class",
-    "teacher"
+    "websockets"
   ],
-  "author": "Nadroj",
+  "author": "jordan lawler",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Jlawlzz/ask-the-audience/issues"
   },
   "homepage": "https://github.com/Jlawlzz/ask-the-audience#readme",
   "dependencies": {
-    "babel": "^6.5.2",
-    "bootstrap": "^3.3.6",
     "express": "^4.13.4",
     "lodash": "^4.11.1",
     "socket.io": "^1.4.5"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
+    "supertest": "^1.2.0"
   }
 }
