@@ -1,0 +1,26 @@
+.app-window {
+  padding-top: 20vh;
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  height: 50%;
+}
+
+.last-vote {
+  font-size:20px;
+}
+
+.votes-display {
+  font-size:20px;
+}
+
+.choices {
+  border-style: dotted;
+  border-color: black;
+  border-width: thick;;
+}
+
+body {
+  color: white;
+  background-image: url("http://wallpaperlayer.com/img/2015/5/dark-background-pictures-5803-6067-hd-wallpapers.jpg");
+}

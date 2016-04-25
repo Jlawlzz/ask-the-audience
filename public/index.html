@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Ask the Audience</title>
+  </head>
+  <body>
+      <div class='app-window'>
+        <div class="title">
+          <h1>Ask the Audience</h1>
+        </div>
+        <div id="connection-count"></div>
+        <div id="status-message"></div>
+        </br>
+        <div clsas='choices' id="choices">
+          <h3>Vote Now:</h3>
+          <button class='btn'>A</button>
+          <button class='btn'>B</button>
+          <button class='btn'>C</button>
+          <button class='btn'>D</button>
+        </div>
+        </br>
+        <div class='last-vote' id="last-vote"></div>
+        <div class='votes-display' id="votes-display"></div>
+      </div>
+      <script src="/socket.io/socket.io.js"></script>
+      <script src="/client.js"></script>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css">
+      <link rel="stylesheet" href="style.css" type="text/css">
+  </body>
+</html>

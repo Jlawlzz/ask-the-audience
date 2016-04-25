@@ -25,6 +25,7 @@
   "homepage": "https://github.com/Jlawlzz/ask-the-audience#readme",
   "dependencies": {
     "babel": "^6.5.2",
+    "bootstrap": "^3.3.6",
     "express": "^4.13.4",
     "lodash": "^4.11.1",
     "socket.io": "^1.4.5"
